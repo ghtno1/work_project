@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: work-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.15.42.111:8848
+      config:
+        #group: ${spring.profiles.active}
+        file-extension: yml
+        server-addr: 106.15.42.111:8848
+        #prefix: ${spring.application.name}
