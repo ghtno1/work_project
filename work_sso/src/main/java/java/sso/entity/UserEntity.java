@@ -6,4 +6,7 @@ package java.sso.entity;
 public class UserEntity {
 
     private  String id;
+
+    private String name;
+
 }
